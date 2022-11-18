@@ -29,6 +29,8 @@ img.emoji {
 	padding: 0 !important;
 }</style>
 	<link rel="stylesheet" id="wp-block-library-css" href="/wp-includes/css/dist/block-library/style.min.css?ver=6.1.1" media="all">
+<link rel="stylesheet" id="mediaelement-css" href="/wp-includes/js/mediaelement/mediaelementplayer-legacy.min.css?ver=4.2.17" media="all">
+<link rel="stylesheet" id="wp-mediaelement-css" href="/wp-includes/js/mediaelement/wp-mediaelement.min.css?ver=6.1.1" media="all">
 <link rel="stylesheet" id="wc-blocks-vendors-style-css" href="/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/wc-blocks-vendors-style.css?ver=8.7.5" media="all">
 <link rel="stylesheet" id="wc-blocks-style-css" href="/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/wc-blocks-style.css?ver=8.7.5" media="all">
 <link rel="stylesheet" id="yith-wcan-shortcodes-css" href="/wp-content/plugins/yith-woocommerce-ajax-navigation/assets/css/shortcodes.css?ver=4.16.0" media="all">
@@ -64,6 +66,9 @@ img.emoji {
 <link rel="stylesheet" id="photoswipe-css" href="/wp-content/plugins/woocommerce/assets/css/photoswipe/photoswipe.min.css?ver=7.1.0" media="all">
 <link rel="stylesheet" id="photoswipe-default-skin-css" href="/wp-content/plugins/woocommerce/assets/css/photoswipe/default-skin/default-skin.min.css?ver=7.1.0" media="all">
 <link rel="stylesheet" id="woocommerce-layout-css" href="/wp-content/plugins/woocommerce/assets/css/woocommerce-layout.css?ver=7.1.0" media="all">
+<style id="woocommerce-layout-inline-css">.infinite-scroll .woocommerce-pagination {
+		display: none;
+	}</style>
 <link rel="stylesheet" id="woocommerce-smallscreen-css" href="/wp-content/plugins/woocommerce/assets/css/woocommerce-smallscreen.css?ver=7.1.0" media="only screen and (max-width: 768px)">
 <link rel="stylesheet" id="woocommerce-general-css" href="/wp-content/plugins/woocommerce/assets/css/woocommerce.css?ver=7.1.0" media="all">
 <style id="woocommerce-inline-inline-css">.woocommerce form .form-row .required { visibility: visible; }</style>
@@ -97,8 +102,8 @@ img.emoji {
             --gbl-secondary-color: #32B9A5 ;
             --gbl-primary-font: Poppins, Serif ;
             --gbl-secondary-font: Open Sans, Sans Serif ;
-            --logo-width: 90 ;
-            --header-text-color: ##000000 ;            
+            --logo-width: 300 ;
+            --header-text-color: #blank ;            
             --footer-color: #000 ;
             --footer-text-color: #eee ;
             --content-width: 1280px ;
@@ -113,7 +118,7 @@ img.emoji {
             
         }
         .site-branding img.custom-logo {
-            max-width:90px ;    
+            max-width:300px ;    
         }
         @media (min-width: 1024px) {
             #masthead {
@@ -138,9 +143,18 @@ img.emoji {
             background-color:#000;
         }</style>
 	<noscript><style>.woocommerce-product-gallery{ opacity: 1 !important; }</style></noscript>
-	</head>
+			<style type="text/css">.site-title,
+			.site-description {
+				position: absolute;
+				clip: rect(1px, 1px, 1px, 1px);
+				}</style>
+		<link rel="icon" href="/wp-content/uploads/2021/12/cropped-30-Day-Guarantee-1-1-32x32.png" sizes="32x32">
+<link rel="icon" href="/wp-content/uploads/2021/12/cropped-30-Day-Guarantee-1-1-192x192.png" sizes="192x192">
+<link rel="apple-touch-icon" href="/wp-content/uploads/2021/12/cropped-30-Day-Guarantee-1-1-180x180.png">
+<meta name="msapplication-TileImage" content="/wp-content/uploads/2021/12/cropped-30-Day-Guarantee-1-1-270x270.png">
+</head>
 
-<body class="product-template-default single single-product postid-121 theme-best-shop woocommerce woocommerce-page woocommerce-no-js yith-wcan-free hide-woo-search-cat disable-sticky-menu leftsidebar elementor-default elementor-kit-8" itemscope itemtype="https://schema.org/WebPage">
+<body class="product-template-default single single-product postid-121 wp-custom-logo theme-best-shop woocommerce woocommerce-page woocommerce-no-js yith-wcan-free  disable-sticky-menu leftsidebar elementor-default elementor-kit-8" itemscope itemtype="https://schema.org/WebPage">
 <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-dark-grayscale"><fecolormatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></fecolormatrix><fecomponenttransfer color-interpolation-filters="sRGB"><fefuncr type="table" tablevalues="0 0.49803921568627"></fefuncr><fefuncg type="table" tablevalues="0 0.49803921568627"></fefuncg><fefuncb type="table" tablevalues="0 0.49803921568627"></fefuncb><fefunca type="table" tablevalues="1 1"></fefunca></fecomponenttransfer><fecomposite in2="SourceGraphic" operator="in"></fecomposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-grayscale"><fecolormatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></fecolormatrix><fecomponenttransfer color-interpolation-filters="sRGB"><fefuncr type="table" tablevalues="0 1"></fefuncr><fefuncg type="table" tablevalues="0 1"></fefuncg><fefuncb type="table" tablevalues="0 1"></fefuncb><fefunca type="table" tablevalues="1 1"></fefunca></fecomponenttransfer><fecomposite in2="SourceGraphic" operator="in"></fecomposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-purple-yellow"><fecolormatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></fecolormatrix><fecomponenttransfer color-interpolation-filters="sRGB"><fefuncr type="table" tablevalues="0.54901960784314 0.98823529411765"></fefuncr><fefuncg type="table" tablevalues="0 1"></fefuncg><fefuncb type="table" tablevalues="0.71764705882353 0.25490196078431"></fefuncb><fefunca type="table" tablevalues="1 1"></fefunca></fecomponenttransfer><fecomposite in2="SourceGraphic" operator="in"></fecomposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-blue-red"><fecolormatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></fecolormatrix><fecomponenttransfer color-interpolation-filters="sRGB"><fefuncr type="table" tablevalues="0 1"></fefuncr><fefuncg type="table" tablevalues="0 0.27843137254902"></fefuncg><fefuncb type="table" tablevalues="0.5921568627451 0.27843137254902"></fefuncb><fefunca type="table" tablevalues="1 1"></fefunca></fecomponenttransfer><fecomposite in2="SourceGraphic" operator="in"></fecomposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-midnight"><fecolormatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></fecolormatrix><fecomponenttransfer color-interpolation-filters="sRGB"><fefuncr type="table" tablevalues="0 0"></fefuncr><fefuncg type="table" tablevalues="0 0.64705882352941"></fefuncg><fefuncb type="table" tablevalues="0 1"></fefuncb><fefunca type="table" tablevalues="1 1"></fefunca></fecomponenttransfer><fecomposite in2="SourceGraphic" operator="in"></fecomposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-magenta-yellow"><fecolormatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></fecolormatrix><fecomponenttransfer color-interpolation-filters="sRGB"><fefuncr type="table" tablevalues="0.78039215686275 1"></fefuncr><fefuncg type="table" tablevalues="0 0.94901960784314"></fefuncg><fefuncb type="table" tablevalues="0.35294117647059 0.47058823529412"></fefuncb><fefunca type="table" tablevalues="1 1"></fefunca></fecomponenttransfer><fecomposite in2="SourceGraphic" operator="in"></fecomposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-purple-green"><fecolormatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></fecolormatrix><fecomponenttransfer color-interpolation-filters="sRGB"><fefuncr type="table" tablevalues="0.65098039215686 0.40392156862745"></fefuncr><fefuncg type="table" tablevalues="0 1"></fefuncg><fefuncb type="table" tablevalues="0.44705882352941 0.4"></fefuncb><fefunca type="table" tablevalues="1 1"></fefunca></fecomponenttransfer><fecomposite in2="SourceGraphic" operator="in"></fecomposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-blue-orange"><fecolormatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></fecolormatrix><fecomponenttransfer color-interpolation-filters="sRGB"><fefuncr type="table" tablevalues="0.098039215686275 1"></fefuncr><fefuncg type="table" tablevalues="0 0.66274509803922"></fefuncg><fefuncb type="table" tablevalues="0.84705882352941 0.41960784313725"></fefuncb><fefunca type="table" tablevalues="1 1"></fefunca></fecomponenttransfer><fecomposite in2="SourceGraphic" operator="in"></fecomposite></filter></defs></svg>		<div id="page" class="site">
 			<a class="skip-link screen-reader-text" href="#primary">Skip to content</a>
 		    
@@ -152,28 +166,25 @@ img.emoji {
                 <div class="container">
                     
                     <div class="left-menu">                        
-                    <ul>
-                          
-                        
-                         
-                        
-                           
-                        
-                        </ul>                      
+                    <ul><li>11:11 Mega Offer! Get upto 60% Discount. Ending Soon.</li></ul>                      
                     </div>
                     
                     <div class="right-menu">
-                    <div class="menu"><ul>
-<li class="page_item page-item-137"><a href="/about/">About</a></li>
-<li class="page_item page-item-12"><a href="/cart/">Cart</a></li>
-<li class="page_item page-item-13"><a href="/checkout/">Checkout</a></li>
-<li class="page_item page-item-128"><a href="/home/">Home</a></li>
-<li class="page_item page-item-125"><a href="/home-2/">Home 2</a></li>
-<li class="page_item page-item-14"><a href="/my-account/">My account</a></li>
-<li class="page_item page-item-11 current_page_parent"><a href="/shop/">Shop</a></li>
-<li class="page_item page-item-16"><a href="/wishlist/">Wishlist</a></li>
-</ul></div>
-                    </div>
+                            <ul class="social-links">
+                            <li>
+                    <a href="https://www.facebook.com/Rastercell" target="_blank" rel="nofollow noopener">
+                        <svg class="st-icon" width="20px" height="20px" viewbox="0 0 20 20">
+					<path d="M20,10.1c0-5.5-4.5-10-10-10S0,4.5,0,10.1c0,5,3.7,9.1,8.4,9.9v-7H5.9v-2.9h2.5V7.9C8.4,5.4,9.9,4,12.2,4c1.1,0,2.2,0.2,2.2,0.2v2.5h-1.3c-1.2,0-1.6,0.8-1.6,1.6v1.9h2.8L13.9,13h-2.3v7C16.3,19.2,20,15.1,20,10.1z"></path>
+				</svg>                    </a>
+                </li>	   
+                                <li>
+                    <a href="https://www.linkedin.com/company/rastercell" target="_self" rel="nofollow noopener">
+                        <svg class="st-icon" width="20px" height="20px" viewbox="0 0 20 20">
+					<path d="M18.6,0H1.4C0.6,0,0,0.6,0,1.4v17.1C0,19.4,0.6,20,1.4,20h17.1c0.8,0,1.4-0.6,1.4-1.4V1.4C20,0.6,19.4,0,18.6,0z M6,17.1h-3V7.6h3L6,17.1L6,17.1zM4.6,6.3c-1,0-1.7-0.8-1.7-1.7s0.8-1.7,1.7-1.7c0.9,0,1.7,0.8,1.7,1.7C6.3,5.5,5.5,6.3,4.6,6.3z M17.2,17.1h-3v-4.6c0-1.1,0-2.5-1.5-2.5c-1.5,0-1.8,1.2-1.8,2.5v4.7h-3V7.6h2.8v1.3h0c0.4-0.8,1.4-1.5,2.8-1.5c3,0,3.6,2,3.6,4.5V17.1z"></path>
+				</svg>                    </a>
+                </li>	   
+                        </ul>
+                                    </div>
                     
                 </div>
             </div>
@@ -184,13 +195,27 @@ img.emoji {
                 <div class="container">
 				<div class="header-wrapper">
 					        <div class="site-branding" itemscope itemtype="https://schema.org/Organization">
-            <div class="site-title-logo">                <p class="site-title" itemprop="name"><a href="/" rel="home" itemprop="url">Rodela Shop</a></p>
+            <a href="/" class="custom-logo-link" rel="home"><img width="7317" height="1411" src="/wp-content/uploads/2022/11/rodela.png" class="custom-logo" alt="Rodela Shop" decoding="async" srcset="/wp-content/uploads/2022/11/rodela.png 7317w, /wp-content/uploads/2022/11/rodela-300x58.png 300w, /wp-content/uploads/2022/11/rodela-1024x197.png 1024w, /wp-content/uploads/2022/11/rodela-768x148.png 768w, /wp-content/uploads/2022/11/rodela-1536x296.png 1536w, /wp-content/uploads/2022/11/rodela-2048x395.png 2048w, /wp-content/uploads/2022/11/rodela-1320x255.png 1320w, /wp-content/uploads/2022/11/rodela-570x110.png 570w" sizes="(max-width: 7317px) 100vw, 7317px"></a><div class="site-title-logo">                <p class="site-title" itemprop="name"><a href="/" rel="home" itemprop="url">Rodela Shop</a></p>
                             </div>
         </div>
 <!-- .site-branding -->
         					<div class="nav-wrap">
                         						<div class="header-left">
-													</div>
+							            <nav id="site-navigation" class="main-navigation" itemscope itemtype="https://schema.org/SiteNavigationElement">
+                <div class="primary-menu-container"><ul id="primary-menu" class="menu">
+<li id="menu-item-241" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-241"><a href="/">Home</a></li>
+<li id="menu-item-145" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-145"><a href="/shop/">Shop</a></li>
+<li id="menu-item-139" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-139"><a href="/product-category/men/">Men</a></li>
+<li id="menu-item-140" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat current-product-ancestor current-menu-parent current-product-parent menu-item-has-children menu-item-140">
+<a href="/product-category/women/">Women</a>
+<ul class="sub-menu">
+	<li id="menu-item-141" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat current-product-ancestor current-menu-parent current-product-parent menu-item-141"><a href="/product-category/accessories/">Accessories</a></li>
+</ul>
+</li>
+<li id="menu-item-142" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-142"><a href="/about/">About</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom"><a id="woo-cart-menu-item" class="cart-contents"></a></li>
+</ul></div>            </nav>
+        						</div>
 						<div class="header-right">
 								<div class="header-search">
 		<button class="header-search-icon" aria-label="search form toggle" data-toggle-target=".search-modal" data-toggle-body-class="showing-search-modal" data-set-focus=".search-modal .search-field" aria-expanded="false">
@@ -225,7 +250,7 @@ img.emoji {
                 <div class="mob-nav-site-branding-wrap">
                     <div class="header-center">
                                 <div class="site-branding" itemscope itemtype="https://schema.org/Organization">
-            <div class="site-title-logo">                <p class="site-title" itemprop="name"><a href="/" rel="home" itemprop="url">Rodela Shop</a></p>
+            <a href="/" class="custom-logo-link" rel="home"><img width="7317" height="1411" src="/wp-content/uploads/2022/11/rodela.png" class="custom-logo" alt="Rodela Shop" decoding="async" srcset="/wp-content/uploads/2022/11/rodela.png 7317w, /wp-content/uploads/2022/11/rodela-300x58.png 300w, /wp-content/uploads/2022/11/rodela-1024x197.png 1024w, /wp-content/uploads/2022/11/rodela-768x148.png 768w, /wp-content/uploads/2022/11/rodela-1536x296.png 1536w, /wp-content/uploads/2022/11/rodela-2048x395.png 2048w, /wp-content/uploads/2022/11/rodela-1320x255.png 1320w, /wp-content/uploads/2022/11/rodela-570x110.png 570w" sizes="(max-width: 7317px) 100vw, 7317px"></a><div class="site-title-logo">                <p class="site-title" itemprop="name"><a href="/" rel="home" itemprop="url">Rodela Shop</a></p>
                             </div>
         </div>
 <!-- .site-branding -->
@@ -244,10 +269,38 @@ img.emoji {
                     <div class="primary-menu-list main-menu-modal cover-modal" data-modal-target-string=".main-menu-modal">                  
                         <button class="close close-main-nav-toggle" data-toggle-target=".main-menu-modal" data-toggle-body-class="showing-main-menu-modal" aria-expanded="false" data-set-focus=".main-menu-modal"></button>
                         <div class="mobile-social-wrap">
-                              
+                            <div class="header-left"><div class="header-social">        <ul class="social-links">
+                            <li>
+                    <a href="https://www.facebook.com/Rastercell" target="_blank" rel="nofollow noopener">
+                        <svg class="st-icon" width="20px" height="20px" viewbox="0 0 20 20">
+					<path d="M20,10.1c0-5.5-4.5-10-10-10S0,4.5,0,10.1c0,5,3.7,9.1,8.4,9.9v-7H5.9v-2.9h2.5V7.9C8.4,5.4,9.9,4,12.2,4c1.1,0,2.2,0.2,2.2,0.2v2.5h-1.3c-1.2,0-1.6,0.8-1.6,1.6v1.9h2.8L13.9,13h-2.3v7C16.3,19.2,20,15.1,20,10.1z"></path>
+				</svg>                    </a>
+                </li>	   
+                                <li>
+                    <a href="https://www.linkedin.com/company/rastercell" target="_self" rel="nofollow noopener">
+                        <svg class="st-icon" width="20px" height="20px" viewbox="0 0 20 20">
+					<path d="M18.6,0H1.4C0.6,0,0,0.6,0,1.4v17.1C0,19.4,0.6,20,1.4,20h17.1c0.8,0,1.4-0.6,1.4-1.4V1.4C20,0.6,19.4,0,18.6,0z M6,17.1h-3V7.6h3L6,17.1L6,17.1zM4.6,6.3c-1,0-1.7-0.8-1.7-1.7s0.8-1.7,1.7-1.7c0.9,0,1.7,0.8,1.7,1.7C6.3,5.5,5.5,6.3,4.6,6.3z M17.2,17.1h-3v-4.6c0-1.1,0-2.5-1.5-2.5c-1.5,0-1.8,1.2-1.8,2.5v4.7h-3V7.6h2.8v1.3h0c0.4-0.8,1.4-1.5,2.8-1.5c3,0,3.6,2,3.6,4.5V17.1z"></path>
+				</svg>                    </a>
+                </li>	   
+                        </ul>
+                </div></div>  
                         </div>
                         <div class="mobile-menu" aria-label="Mobile">
-                                                    </div>
+                                        <nav id="mobile-navigation" class="main-navigation">
+                <div class="primary-menu-container"><ul id="primary-menu" class="menu">
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-241"><a href="/">Home</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-145"><a href="/shop/">Shop</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-139"><a href="/product-category/men/">Men</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat current-product-ancestor current-menu-parent current-product-parent menu-item-has-children menu-item-140">
+<a href="/product-category/women/">Women</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat current-product-ancestor current-menu-parent current-product-parent menu-item-141"><a href="/product-category/accessories/">Accessories</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-142"><a href="/about/">About</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom"><a id="woo-cart-menu-item" class="cart-contents"></a></li>
+</ul></div>            </nav>
+                                </div>
                     </div>
                 </nav><!-- #mobile-site-navigation -->
             </div>
@@ -314,7 +367,7 @@ img.emoji {
                         	
         <a class="cart-contents" href="/cart/" data-tooltip="Cart" title="Cart">
             <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewbox="0 0 24 24"><path d="M20 7h-4v-3c0-2.209-1.791-4-4-4s-4 1.791-4 4v3h-4l-2 17h20l-2-17zm-11-3c0-1.654 1.346-3 3-3s3 1.346 3 3v3h-6v-3zm-4.751 18l1.529-13h2.222v1.5c0 .276.224.5.5.5s.5-.224.5-.5v-1.5h6v1.5c0 .276.224.5.5.5s.5-.224.5-.5v-1.5h2.222l1.529 13h-15.502z"></path></svg><span class="count">0</span>
-            <div class="amount-cart">&#036;0.00</div> 
+            <div class="amount-cart">0.00&#2547;&nbsp;</div> 
         </a>
         
                         <ul class="site-header-cart menu list-unstyled text-center">
@@ -363,16 +416,16 @@ img.emoji {
                       <div class="content-area">
 
                           <div class="woocommerce-notices-wrapper"></div>
-<div id="product-121" class="product type-product post-121 status-publish first instock product_cat-accessories product_cat-women has-post-thumbnail shipping-taxable purchasable product-type-simple">
+<div id="product-121" class="product type-product post-121 status-publish first instock product_cat-accessories product_cat-women has-post-thumbnail taxable shipping-taxable purchasable product-type-simple">
 
 	<div class="woocommerce-product-gallery woocommerce-product-gallery--with-images woocommerce-product-gallery--columns-4 images" data-columns="4" style="opacity: 0; transition: opacity .25s ease-in-out;">
 	<figure class="woocommerce-product-gallery__wrapper">
-		<div data-thumb="http://rodela.test/wp-content/uploads/2017/12/product-bag4-1-100x100.jpg" data-thumb-alt="" class="woocommerce-product-gallery__image"><a href="/wp-content/uploads/2017/12/product-bag4-1.jpg"><img width="570" height="570" src="/wp-content/uploads/2017/12/product-bag4-1-570x570.jpg" class="wp-post-image" alt="" decoding="async" loading="lazy" title="product-bag4" data-caption="" data-src="http://rodela.test/wp-content/uploads/2017/12/product-bag4-1.jpg" data-large_image="http://rodela.test/wp-content/uploads/2017/12/product-bag4-1.jpg" data-large_image_width="1200" data-large_image_height="1200" srcset="/wp-content/uploads/2017/12/product-bag4-1-570x570.jpg 570w, /wp-content/uploads/2017/12/product-bag4-1-300x300.jpg 300w, /wp-content/uploads/2017/12/product-bag4-1-1024x1024.jpg 1024w, /wp-content/uploads/2017/12/product-bag4-1-150x150.jpg 150w, /wp-content/uploads/2017/12/product-bag4-1-768x768.jpg 768w, /wp-content/uploads/2017/12/product-bag4-1-350x350.jpg 350w, /wp-content/uploads/2017/12/product-bag4-1-100x100.jpg 100w, /wp-content/uploads/2017/12/product-bag4-1.jpg 1200w" sizes="(max-width: 570px) 100vw, 570px"></a></div>	</figure>
+		<div data-thumb="http://rodela.test/wp-content/uploads/2017/12/product-bag4-1-100x100.jpg" data-thumb-alt="" class="woocommerce-product-gallery__image"><a href="/wp-content/uploads/2017/12/product-bag4-1.jpg"><img width="570" height="570" src="/wp-content/uploads/2017/12/product-bag4-1-570x570.jpg" class="wp-post-image" alt="" decoding="async" loading="lazy" title="product-bag4" data-caption="" data-src="http://rodela.test/wp-content/uploads/2017/12/product-bag4-1.jpg" data-large_image="http://rodela.test/wp-content/uploads/2017/12/product-bag4-1.jpg" data-large_image_width="1200" data-large_image_height="1200" srcset="/wp-content/uploads/2017/12/product-bag4-1-570x570.jpg 570w, /wp-content/uploads/2017/12/product-bag4-1-100x100.jpg 100w, /wp-content/uploads/2017/12/product-bag4-1-300x300.jpg 300w, /wp-content/uploads/2017/12/product-bag4-1-1024x1024.jpg 1024w, /wp-content/uploads/2017/12/product-bag4-1-150x150.jpg 150w, /wp-content/uploads/2017/12/product-bag4-1-768x768.jpg 768w, /wp-content/uploads/2017/12/product-bag4-1-350x350.jpg 350w, /wp-content/uploads/2017/12/product-bag4-1.jpg 1200w" sizes="(max-width: 570px) 100vw, 570px"></a></div>	</figure>
 </div>
 
 	<div class="summary entry-summary">
 		<h1 class="product_title entry-title">Bright Gold Purse With Chain</h1>
-<p class="price"><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>150.00</bdi></span></p>
+<p class="price"><span class="woocommerce-Price-amount amount"><bdi>150.00<span class="woocommerce-Price-currencySymbol">&#2547;&nbsp;</span></bdi></span></p>
 <div class="woocommerce-product-details__short-description">
 	<p>Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit sed ut.</p>
 </div>
@@ -381,8 +434,8 @@ img.emoji {
 	<form class="cart" action="http://rodela.test/product/bright-gold-purse-with-chain/" method="post" enctype="multipart/form-data">
 		
 			<div class="quantity">
-				<label class="screen-reader-text" for="quantity_637698a88a9d1">Bright Gold Purse With Chain quantity</label>
-		<input type="number" id="quantity_637698a88a9d1" class="input-text qty text" step="1" min="1" max="" name="quantity" value="1" title="Qty" size="4" placeholder="" inputmode="numeric" autocomplete="off">
+				<label class="screen-reader-text" for="quantity_637764cfc0d6d">Bright Gold Purse With Chain quantity</label>
+		<input type="number" id="quantity_637764cfc0d6d" class="input-text qty text" step="1" min="1" max="" name="quantity" value="1" title="Qty" size="4" placeholder="" inputmode="numeric" autocomplete="off">
 			</div>
 	
 		<button type="submit" name="add-to-cart" value="121" class="single_add_to_cart_button button alt wp-element-button">Add to cart</button>
@@ -396,7 +449,7 @@ img.emoji {
 			<!-- ADD TO WISHLIST -->
 			
 <div class="yith-wcwl-add-button">
-		<a href="/product/bright-gold-purse-with-chain/?add_to_wishlist=121&#038;_wpnonce=c7e6e1b43f" class="add_to_wishlist single_add_to_wishlist" data-product-id="121" data-product-type="simple" data-original-product-id="121" data-title="Add to wishlist" rel="nofollow">
+		<a href="/product/bright-gold-purse-with-chain/?add_to_wishlist=121&#038;_wpnonce=03420e128c" class="add_to_wishlist single_add_to_wishlist" data-product-id="121" data-product-type="simple" data-original-product-id="121" data-title="Add to wishlist" rel="nofollow">
 		<i class="yith-wcwl-icon fa fa-heart-o"></i>		<span>Add to wishlist</span>
 	</a>
 </div>
@@ -482,24 +535,9 @@ img.emoji {
 		<ul class="products columns-4">
 
 			
-					<li class="product type-product post-120 status-publish first instock product_cat-accessories product_cat-women has-post-thumbnail shipping-taxable purchasable product-type-simple">
-	<a href="/product/black-over-the-shoulder-handbag/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"><img width="360" height="432" src="/wp-content/uploads/2017/12/product-bag2-1-360x432.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" decoding="async" loading="lazy"><h2 class="woocommerce-loop-product__title">Black Over-the-shoulder Handbag</h2>
-	<span class="price"><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>150.00</bdi></span></span>
-    <div class="custom-cart-btn">
-				<a href="/product/bright-gold-purse-with-chain/?add-to-cart=120" data-quantity="1" class="button wp-element-button product_type_simple add_to_cart_button ajax_add_to_cart" data-product_id="120" data-product_sku="" aria-label="Add &ldquo;Black Over-the-shoulder Handbag&rdquo; to your cart" rel="nofollow">Add to cart</a>    </div>
-	
-    <div class="hover-area">
-        <div class="action-buttons">
-            <a href="#" class="button yith-wcqv-button" data-product_id="120">Quick View</a>        </div>
-    </div>
-	
-</a>
-</li>
-
-			
-					<li class="product type-product post-119 status-publish instock product_cat-accessories product_cat-women has-post-thumbnail featured shipping-taxable purchasable product-type-simple">
+					<li class="product type-product post-119 status-publish first instock product_cat-accessories product_cat-women has-post-thumbnail featured taxable shipping-taxable purchasable product-type-simple">
 	<a href="/product/light-brown-purse/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"><img width="360" height="432" src="/wp-content/uploads/2017/12/product-bag1-1-360x432.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" decoding="async" loading="lazy"><h2 class="woocommerce-loop-product__title">Light Brown Purse</h2>
-	<span class="price"><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>150.00</bdi></span></span>
+	<span class="price"><span class="woocommerce-Price-amount amount"><bdi>150.00<span class="woocommerce-Price-currencySymbol">&#2547;&nbsp;</span></bdi></span></span>
     <div class="custom-cart-btn">
 				<a href="/product/bright-gold-purse-with-chain/?add-to-cart=119" data-quantity="1" class="button wp-element-button product_type_simple add_to_cart_button ajax_add_to_cart" data-product_id="119" data-product_sku="" aria-label="Add &ldquo;Light Brown Purse&rdquo; to your cart" rel="nofollow">Add to cart</a>    </div>
 	
@@ -512,30 +550,45 @@ img.emoji {
 </li>
 
 			
-					<li class="product type-product post-92 status-publish instock product_cat-women product_tag-men product_tag-shoes has-post-thumbnail shipping-taxable purchasable product-type-simple">
-	<a href="/product/dnk-black-shoes/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"><img width="360" height="432" src="/wp-content/uploads/2021/03/sports-shoe5-1-360x432.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" decoding="async" loading="lazy"><h2 class="woocommerce-loop-product__title">DNK Black Shoes</h2>
-	<span class="price"><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>150.00</bdi></span></span>
+					<li class="product type-product post-109 status-publish instock product_cat-women has-post-thumbnail taxable shipping-taxable purchasable product-type-simple">
+	<a href="/product/purple-tshirt/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"><img width="360" height="432" src="/wp-content/uploads/2021/03/tshirt1-1-360x432.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" decoding="async" loading="lazy"><h2 class="woocommerce-loop-product__title">Purple Tshirt</h2>
+	<span class="price"><span class="woocommerce-Price-amount amount"><bdi>150.00<span class="woocommerce-Price-currencySymbol">&#2547;&nbsp;</span></bdi></span></span>
     <div class="custom-cart-btn">
-				<a href="/product/bright-gold-purse-with-chain/?add-to-cart=92" data-quantity="1" class="button wp-element-button product_type_simple add_to_cart_button ajax_add_to_cart" data-product_id="92" data-product_sku="" aria-label="Add &ldquo;DNK Black Shoes&rdquo; to your cart" rel="nofollow">Add to cart</a>    </div>
+				<a href="/product/bright-gold-purse-with-chain/?add-to-cart=109" data-quantity="1" class="button wp-element-button product_type_simple add_to_cart_button ajax_add_to_cart" data-product_id="109" data-product_sku="" aria-label="Add &ldquo;Purple Tshirt&rdquo; to your cart" rel="nofollow">Add to cart</a>    </div>
 	
     <div class="hover-area">
         <div class="action-buttons">
-            <a href="#" class="button yith-wcqv-button" data-product_id="92">Quick View</a>        </div>
+            <a href="#" class="button yith-wcqv-button" data-product_id="109">Quick View</a>        </div>
     </div>
 	
 </a>
 </li>
 
 			
-					<li class="product type-product post-107 status-publish last instock product_cat-women has-post-thumbnail shipping-taxable purchasable product-type-simple">
-	<a href="/product/gray-pattern-tshirt/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"><img width="360" height="432" src="/wp-content/uploads/2021/03/tshirt7-1-360x432.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" decoding="async" loading="lazy"><h2 class="woocommerce-loop-product__title">Gray Pattern Tshirt</h2>
-	<span class="price"><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>150.00</bdi></span></span>
+					<li class="product type-product post-113 status-publish instock product_cat-accessories product_cat-women has-post-thumbnail taxable shipping-taxable purchasable product-type-simple">
+	<a href="/product/buddha-bracelet/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"><img width="360" height="432" src="/wp-content/uploads/2017/12/product-accessory3-1-360x432.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" decoding="async" loading="lazy"><h2 class="woocommerce-loop-product__title">Gold Bracelet</h2>
+	<span class="price"><span class="woocommerce-Price-amount amount"><bdi>150.00<span class="woocommerce-Price-currencySymbol">&#2547;&nbsp;</span></bdi></span></span>
     <div class="custom-cart-btn">
-				<a href="/product/bright-gold-purse-with-chain/?add-to-cart=107" data-quantity="1" class="button wp-element-button product_type_simple add_to_cart_button ajax_add_to_cart" data-product_id="107" data-product_sku="" aria-label="Add &ldquo;Gray Pattern Tshirt&rdquo; to your cart" rel="nofollow">Add to cart</a>    </div>
+				<a href="/product/bright-gold-purse-with-chain/?add-to-cart=113" data-quantity="1" class="button wp-element-button product_type_simple add_to_cart_button ajax_add_to_cart" data-product_id="113" data-product_sku="" aria-label="Add &ldquo;Gold Bracelet&rdquo; to your cart" rel="nofollow">Add to cart</a>    </div>
 	
     <div class="hover-area">
         <div class="action-buttons">
-            <a href="#" class="button yith-wcqv-button" data-product_id="107">Quick View</a>        </div>
+            <a href="#" class="button yith-wcqv-button" data-product_id="113">Quick View</a>        </div>
+    </div>
+	
+</a>
+</li>
+
+			
+					<li class="product type-product post-103 status-publish last instock product_cat-women has-post-thumbnail featured taxable shipping-taxable purchasable product-type-simple">
+	<a href="/product/basic-gray-jeans/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"><img width="360" height="432" src="/wp-content/uploads/2017/12/product-w-jeans4-1-360x432.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" decoding="async" loading="lazy"><h2 class="woocommerce-loop-product__title">Basic Gray Jeans</h2>
+	<span class="price"><span class="woocommerce-Price-amount amount"><bdi>150.00<span class="woocommerce-Price-currencySymbol">&#2547;&nbsp;</span></bdi></span></span>
+    <div class="custom-cart-btn">
+				<a href="/product/bright-gold-purse-with-chain/?add-to-cart=103" data-quantity="1" class="button wp-element-button product_type_simple add_to_cart_button ajax_add_to_cart" data-product_id="103" data-product_sku="" aria-label="Add &ldquo;Basic Gray Jeans&rdquo; to your cart" rel="nofollow">Add to cart</a>    </div>
+	
+    <div class="hover-area">
+        <div class="action-buttons">
+            <a href="#" class="button yith-wcqv-button" data-product_id="103">Quick View</a>        </div>
     </div>
 	
 </a>
@@ -590,12 +643,15 @@ img.emoji {
                                             <div class="col">
                            <section id="nav_menu-1" class="widget widget_nav_menu"><h2 class="widget-title" itemprop="name">Quick Links</h2>
 <div class="menu-quick-links-container"><ul id="menu-quick-links" class="menu">
+<li id="menu-item-264" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-264"><a href="/my-account/">My account</a></li>
+<li id="menu-item-263" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-263"><a href="/wishlist/">Wishlist</a></li>
+<li id="menu-item-262" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-262"><a href="/shop/">Shop</a></li>
+<li id="menu-item-265" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-265"><a href="/cart/">Cart</a></li>
 <li id="menu-item-162" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-162"><a href="/about/">About</a></li>
-<li id="menu-item-249" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-249"><a href="/about/">About</a></li>
 </ul></div></section> 
                         </div>
                                             <div class="col">
-                           <section id="nav_menu-2" class="widget widget_nav_menu"><h2 class="widget-title" itemprop="name">For Her</h2>
+                           <section id="nav_menu-2" class="widget widget_nav_menu"><h2 class="widget-title" itemprop="name">For Women</h2>
 <div class="menu-for-her-container"><ul id="menu-for-her" class="menu">
 <li id="menu-item-156" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-156"><a href="#">Women Jeans</a></li>
 <li id="menu-item-155" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-155"><a href="#">Tops and Shirts</a></li>
@@ -605,7 +661,7 @@ img.emoji {
 </ul></div></section> 
                         </div>
                                             <div class="col">
-                           <section id="nav_menu-3" class="widget widget_nav_menu"><h2 class="widget-title" itemprop="name">For Him</h2>
+                           <section id="nav_menu-3" class="widget widget_nav_menu"><h2 class="widget-title" itemprop="name">For Men</h2>
 <div class="menu-for-him-container"><ul id="menu-for-him" class="menu">
 <li id="menu-item-161" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-161"><a href="#">Men Jeans</a></li>
 <li id="menu-item-160" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-160"><a href="#">Men Shirts</a></li>
@@ -615,7 +671,8 @@ img.emoji {
 </ul></div></section> 
                         </div>
                                             <div class="col">
-                           <section id="media_image-1" class="widget widget_media_image"><img class="image " src="https://wordpress.gradientthemes.com/brand-shop/wp-content/uploads/sites/2/2021/06/appstore-img.png" alt="" width="144" height="44"></section><section id="media_image-2" class="widget widget_media_image"><img class="image " src="https://wordpress.gradientthemes.com/brand-shop/wp-content/uploads/sites/2/2021/06/playstore-img.png" alt="" width="144" height="44"></section> 
+                           <section id="media_image-4" class="widget widget_media_image"><h2 class="widget-title" itemprop="name">Pay With</h2>
+<img width="300" height="49" src="/wp-content/uploads/2022/11/bkash-nagad-rocket-1-300x49.png" class="image wp-image-269  attachment-medium size-medium" alt="" decoding="async" loading="lazy" style="max-width: 100%; height: auto;" srcset="/wp-content/uploads/2022/11/bkash-nagad-rocket-1-300x49.png 300w, /wp-content/uploads/2022/11/bkash-nagad-rocket-1-1024x166.png 1024w, /wp-content/uploads/2022/11/bkash-nagad-rocket-1-768x125.png 768w, /wp-content/uploads/2022/11/bkash-nagad-rocket-1-1536x250.png 1536w, /wp-content/uploads/2022/11/bkash-nagad-rocket-1-1320x214.png 1320w, /wp-content/uploads/2022/11/bkash-nagad-rocket-1-570x93.png 570w, /wp-content/uploads/2022/11/bkash-nagad-rocket-1.png 1594w" sizes="(max-width: 300px) 100vw, 300px"></section> 
                         </div>
                                         </div>
                 </div>
@@ -624,8 +681,22 @@ img.emoji {
             
                        
             
-            <div class="container footer-info" style="text-align:center">
-                <div class="site-info"><span class="copy-right"> <a href="https://gradientthemes.com/">A theme by Gradient Themes ©</a> </span></div> 
+            <div class="container footer-info">
+                <div class="site-info"><span class="copy-right"><a href="https://rastercell.com/">© Rodela Shop || Rastercell Web Solutions</a></span></div>        <ul class="social-links">
+                            <li>
+                    <a href="https://www.facebook.com/Rastercell" target="_blank" rel="nofollow noopener">
+                        <svg class="st-icon" width="20px" height="20px" viewbox="0 0 20 20">
+					<path d="M20,10.1c0-5.5-4.5-10-10-10S0,4.5,0,10.1c0,5,3.7,9.1,8.4,9.9v-7H5.9v-2.9h2.5V7.9C8.4,5.4,9.9,4,12.2,4c1.1,0,2.2,0.2,2.2,0.2v2.5h-1.3c-1.2,0-1.6,0.8-1.6,1.6v1.9h2.8L13.9,13h-2.3v7C16.3,19.2,20,15.1,20,10.1z"></path>
+				</svg>                    </a>
+                </li>	   
+                                <li>
+                    <a href="https://www.linkedin.com/company/rastercell" target="_self" rel="nofollow noopener">
+                        <svg class="st-icon" width="20px" height="20px" viewbox="0 0 20 20">
+					<path d="M18.6,0H1.4C0.6,0,0,0.6,0,1.4v17.1C0,19.4,0.6,20,1.4,20h17.1c0.8,0,1.4-0.6,1.4-1.4V1.4C20,0.6,19.4,0,18.6,0z M6,17.1h-3V7.6h3L6,17.1L6,17.1zM4.6,6.3c-1,0-1.7-0.8-1.7-1.7s0.8-1.7,1.7-1.7c0.9,0,1.7,0.8,1.7,1.7C6.3,5.5,5.5,6.3,4.6,6.3z M17.2,17.1h-3v-4.6c0-1.1,0-2.5-1.5-2.5c-1.5,0-1.8,1.2-1.8,2.5v4.7h-3V7.6h2.8v1.3h0c0.4-0.8,1.4-1.5,2.8-1.5c3,0,3.6,2,3.6,4.5V17.1z"></path>
+				</svg>                    </a>
+                </li>	   
+                        </ul>
+                 
             </div>
         </div>
        
@@ -653,7 +724,7 @@ img.emoji {
       <path fill-rule="evenodd" d="M8 15a.5.5 0 0 0 .5-.5V2.707l3.146 3.147a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L7.5 2.707V14.5a.5.5 0 0 0 .5.5z"></path>
     </svg></div>
 
-<script type="application/ld+json">{"@context":"https:\/\/schema.org\/","@type":"Product","@id":"\/product\/bright-gold-purse-with-chain\/#product","name":"Bright Gold Purse With Chain","url":"\/product\/bright-gold-purse-with-chain\/","description":"Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit sed ut.","image":"\/wp-content\/uploads\/2017\/12\/product-bag4-1.jpg","sku":121,"offers":[{"@type":"Offer","price":"150.00","priceValidUntil":"2023-12-31","priceSpecification":{"price":"150.00","priceCurrency":"USD","valueAddedTaxIncluded":"false"},"priceCurrency":"USD","availability":"http:\/\/schema.org\/InStock","url":"\/product\/bright-gold-purse-with-chain\/","seller":{"@type":"Organization","name":"Rodela Shop","url":""}}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org\/","@type":"Product","@id":"\/product\/bright-gold-purse-with-chain\/#product","name":"Bright Gold Purse With Chain","url":"\/product\/bright-gold-purse-with-chain\/","description":"Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit sed ut.","image":"\/wp-content\/uploads\/2017\/12\/product-bag4-1.jpg","sku":121,"offers":[{"@type":"Offer","price":"150.00","priceValidUntil":"2023-12-31","priceSpecification":{"price":"150.00","priceCurrency":"BDT","valueAddedTaxIncluded":"false"},"priceCurrency":"BDT","availability":"http:\/\/schema.org\/InStock","url":"\/product\/bright-gold-purse-with-chain\/","seller":{"@type":"Organization","name":"Rodela Shop","url":""}}]}</script>
 <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
 	<div class="pswp__bg"></div>
 	<div class="pswp__scroll-wrap">
@@ -703,12 +774,12 @@ img.emoji {
 </script>
 <script src="/wp-content/plugins/woocommerce/assets/js/accounting/accounting.min.js?ver=0.4.2" id="accounting-js"></script>
 <script src="/wp-content/plugins/woocommerce/assets/js/selectWoo/selectWoo.full.min.js?ver=1.0.9-wc.7.1.0" id="selectWoo-js"></script>
-<script id="yith-wcan-shortcodes-js-extra">var yith_wcan_shortcodes = {"query_param":"yith_wcan","supported_taxonomies":["product_cat","product_tag"],"content":"#content","change_browser_url":"1","instant_filters":"1","ajax_filters":"1","reload_on_back":"1","show_clear_filter":"","scroll_top":"","scroll_target":"","modal_on_mobile":"","session_param":"","show_current_children":"","loader":"","toggles_open_on_modal":"","mobile_media_query":"991","base_url":"\/product\/bright-gold-purse-with-chain\/","terms_per_page":"10","currency_format":{"symbol":"$","decimal":".","thousand":",","precision":2,"format":"%s%v"},"labels":{"empty_option":"All","search_placeholder":"Search...","no_items":"No item found","show_more":"Show %d more","close":"Close","save":"Save","show_results":"Show results","clear_selection":"Clear","clear_all_selections":"Clear All"}};</script>
+<script id="yith-wcan-shortcodes-js-extra">var yith_wcan_shortcodes = {"query_param":"yith_wcan","supported_taxonomies":["product_cat","product_tag"],"content":"#content","change_browser_url":"1","instant_filters":"1","ajax_filters":"1","reload_on_back":"1","show_clear_filter":"","scroll_top":"","scroll_target":"","modal_on_mobile":"","session_param":"","show_current_children":"","loader":"","toggles_open_on_modal":"","mobile_media_query":"991","base_url":"\/product\/bright-gold-purse-with-chain\/","terms_per_page":"10","currency_format":{"symbol":"৳ ","decimal":".","thousand":",","precision":2,"format":"%v%s"},"labels":{"empty_option":"All","search_placeholder":"Search...","no_items":"No item found","show_more":"Show %d more","close":"Close","save":"Save","show_results":"Show results","clear_selection":"Clear","clear_all_selections":"Clear All"}};</script>
 <script src="/wp-content/plugins/yith-woocommerce-ajax-navigation/assets/js/yith-wcan-shortcodes.min.js?ver=4.16.0" id="yith-wcan-shortcodes-js"></script>
 <script src="/wp-content/plugins/yith-woocommerce-wishlist/assets/js/jquery.selectBox.min.js?ver=1.2.0" id="jquery-selectBox-js"></script>
 <script src="/wp-content/plugins/woocommerce/assets/js/prettyPhoto/jquery.prettyPhoto.min.js?ver=3.1.6" id="prettyPhoto-js"></script>
 <script id="jquery-yith-wcwl-js-extra">
-var yith_wcwl_l10n = {"ajax_url":"\/wp-admin\/admin-ajax.php","redirect_to_cart":"no","multi_wishlist":"","hide_add_button":"1","enable_ajax_loading":"","ajax_loader_url":"\/wp-content\/plugins\/yith-woocommerce-wishlist\/assets\/images\/ajax-loader-alt.svg","remove_from_wishlist_after_add_to_cart":"1","is_wishlist_responsive":"1","time_to_close_prettyphoto":"3000","fragments_index_glue":".","reload_on_found_variation":"1","mobile_media_query":"768","labels":{"cookie_disabled":"We are sorry, but this feature is available only if cookies on your browser are enabled.","added_to_cart_message":"<div class=\"woocommerce-notices-wrapper\"><div class=\"woocommerce-message\" role=\"alert\">Product added to cart successfully<\/div><\/div>"},"actions":{"add_to_wishlist_action":"add_to_wishlist","remove_from_wishlist_action":"remove_from_wishlist","reload_wishlist_and_adding_elem_action":"reload_wishlist_and_adding_elem","load_mobile_action":"load_mobile","delete_item_action":"delete_item","save_title_action":"save_title","save_privacy_action":"save_privacy","load_fragments":"load_fragments"},"nonce":{"add_to_wishlist_nonce":"c7e6e1b43f","remove_from_wishlist_nonce":"ddbdb6177d","reload_wishlist_and_adding_elem_nonce":"6a39bc5cef","load_mobile_nonce":"62cc319723","delete_item_nonce":"686989f73f","save_title_nonce":"16690f7c01","save_privacy_nonce":"5d96bce8ae","load_fragments_nonce":"727af51776"}};
+var yith_wcwl_l10n = {"ajax_url":"\/wp-admin\/admin-ajax.php","redirect_to_cart":"no","multi_wishlist":"","hide_add_button":"1","enable_ajax_loading":"","ajax_loader_url":"\/wp-content\/plugins\/yith-woocommerce-wishlist\/assets\/images\/ajax-loader-alt.svg","remove_from_wishlist_after_add_to_cart":"1","is_wishlist_responsive":"1","time_to_close_prettyphoto":"3000","fragments_index_glue":".","reload_on_found_variation":"1","mobile_media_query":"768","labels":{"cookie_disabled":"We are sorry, but this feature is available only if cookies on your browser are enabled.","added_to_cart_message":"<div class=\"woocommerce-notices-wrapper\"><div class=\"woocommerce-message\" role=\"alert\">Product added to cart successfully<\/div><\/div>"},"actions":{"add_to_wishlist_action":"add_to_wishlist","remove_from_wishlist_action":"remove_from_wishlist","reload_wishlist_and_adding_elem_action":"reload_wishlist_and_adding_elem","load_mobile_action":"load_mobile","delete_item_action":"delete_item","save_title_action":"save_title","save_privacy_action":"save_privacy","load_fragments":"load_fragments"},"nonce":{"add_to_wishlist_nonce":"03420e128c","remove_from_wishlist_nonce":"056a2a8375","reload_wishlist_and_adding_elem_nonce":"7bf1b2070c","load_mobile_nonce":"8bb6dac31a","delete_item_nonce":"1f0a27723b","save_title_nonce":"11ae827d02","save_privacy_nonce":"0fa088a8a8","load_fragments_nonce":"47c4c834b6"}};
 </script>
 <script src="/wp-content/plugins/yith-woocommerce-wishlist/assets/js/jquery.yith-wcwl.min.js?ver=3.15.0" id="jquery-yith-wcwl-js"></script>
 <script src="/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.7.0-wc.7.1.0" id="jquery-blockui-js"></script>
@@ -725,6 +796,19 @@ var yith_wcwl_l10n = {"ajax_url":"\/wp-admin\/admin-ajax.php","redirect_to_cart"
 <script src="/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=7.1.0" id="woocommerce-js"></script>
 <script id="wc-cart-fragments-js-extra">var wc_cart_fragments_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%","cart_hash_key":"wc_cart_hash_986aa415484ddacf338841334d7db1b7","fragment_name":"wc_fragments_986aa415484ddacf338841334d7db1b7","request_timeout":"5000"};</script>
 <script src="/wp-content/plugins/woocommerce/assets/js/frontend/cart-fragments.min.js?ver=7.1.0" id="wc-cart-fragments-js"></script>
+<script id="wc-cart-fragments-js-after">jQuery( 'body' ).bind( 'wc_fragments_refreshed', function() {
+			var jetpackLazyImagesLoadEvent;
+			try {
+				jetpackLazyImagesLoadEvent = new Event( 'jetpack-lazy-images-load', {
+					bubbles: true,
+					cancelable: true
+				} );
+			} catch ( e ) {
+				jetpackLazyImagesLoadEvent = document.createEvent( 'Event' )
+				jetpackLazyImagesLoadEvent.initEvent( 'jetpack-lazy-images-load', true, true );
+			}
+			jQuery( 'body' ).get( 0 ).dispatchEvent( jetpackLazyImagesLoadEvent );
+		} );</script>
 <script id="yith-woocompare-main-js-extra">var yith_woocompare = {"ajaxurl":"\/?wc-ajax=%%endpoint%%","actionadd":"yith-woocompare-add-product","actionremove":"yith-woocompare-remove-product","actionview":"yith-woocompare-view-table","actionreload":"yith-woocompare-reload-product","added_label":"Added","table_title":"Product Comparison","auto_open":"yes","loader":"\/wp-content\/plugins\/yith-woocommerce-compare\/assets\/images\/loader.gif","button_text":"Compare","cookie_name":"yith_woocompare_list","close_label":"Close"};</script>
 <script src="/wp-content/plugins/yith-woocommerce-compare/assets/js/woocompare.min.js?ver=2.20.1" id="yith-woocompare-main-js"></script>
 <script src="/wp-content/plugins/yith-woocommerce-compare/assets/js/jquery.colorbox-min.js?ver=1.4.21" id="jquery-colorbox-js"></script>
